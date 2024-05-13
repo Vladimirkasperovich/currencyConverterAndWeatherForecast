@@ -1,26 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {InputWrapper} from "components/inputWrapper/InputWrapper";
+import {ButtonWrapper} from "components/buttonWrapper/ButtonWrapper";
+import {CitySelect} from "components/citySelect/CitySelect";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <h1>Hui</h1>
+            <InputWrapper placeholder='here will be something'/>
+            <hr/>
+            <ButtonWrapper text='Send'/>
+            <hr/>
+            <CitySelect/>
+        </div>
+    );
 }
 
 export default App;

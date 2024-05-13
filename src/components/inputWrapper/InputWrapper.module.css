@@ -1,0 +1,16 @@
+.input{
+    height: 35px;
+    border: 3px solid #4e42d4;
+    border-radius: 12px;
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.input:hover{
+    border-color: palevioletred;
+    cursor: pointer;
+}
+.input:active{
+    border-color: palevioletred;
+}
