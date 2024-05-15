@@ -10,7 +10,6 @@ function App() {
     return (
         <div className="App">
             <Header/>
-            <h1>Hui</h1>
             <InputWrapper placeholder='here will be something'/>
             <hr/>
             <ButtonWrapper text='Send'/>

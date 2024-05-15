@@ -4,13 +4,14 @@ import github from 'assets/github.svg'
 import instagram from 'assets/instagram.svg'
 import linkedin from 'assets/linkedin.svg'
 import {Link} from "react-router-dom";
+import {BurgerMenu} from "components/Burgermenu/BurgerMenu";
 
 export const Header = () => {
     return (
         <header className={s.header}>
             <div className={s.container}>
                 <div className={s.burger}>
-                    здесь будет бургер меню
+                   <BurgerMenu/>
                 </div>
                 <div className={s.content}>
                     <div>
