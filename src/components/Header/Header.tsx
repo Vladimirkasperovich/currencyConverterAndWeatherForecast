@@ -6,12 +6,16 @@ import linkedin from 'assets/linkedin.svg'
 import {Link} from "react-router-dom";
 import {BurgerMenu} from "components/Burgermenu/BurgerMenu";
 
-export const Header = () => {
+ export type Header = {
+     toggleSideBarHandler: (isOpen: boolean) => void
+ }
+
+export const Header = ({toggleSideBarHandler}: Header) => {
     return (
         <header className={s.header}>
             <div className={s.container}>
                 <div className={s.burger}>
-                   <BurgerMenu/>
+                   <BurgerMenu toggleSideBarHandler={toggleSideBarHandler}/>
                 </div>
                 <div className={s.content}>
                     <div>

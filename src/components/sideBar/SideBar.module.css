@@ -1,15 +1,32 @@
 .section{
-    min-height: 100vh;
+    min-height: 87vh;
     max-width: 170px;
+
 }
 
 .sideBar_block{
     max-width: 170px;
-    min-height: 100vh;
+
 }
 .sideBar_content{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
+}
+
+.sideBar_content  a{
+    display: block;
+    color: #4e42d4;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+}
+.second_link{
+    margin-left: 10px;
+}
+
+a:hover {
+    color: palevioletred;
 }
