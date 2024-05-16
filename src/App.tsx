@@ -1,20 +1,14 @@
 import React from 'react';
 import './App.css';
-import {InputWrapper} from "components/inputWrapper/InputWrapper";
-import {ButtonWrapper} from "components/buttonWrapper/ButtonWrapper";
-import {CitySelect} from "components/citySelect/CitySelect";
 import {Header} from "components/Header/Header";
+import {SideBar} from "components/sideBar/SideBar";
+import {AppModule} from "components/AppModule/AppModule";
 
 
 function App() {
     return (
         <div className="App">
-            <Header/>
-            <InputWrapper placeholder='here will be something'/>
-            <hr/>
-            <ButtonWrapper text='Send'/>
-            <hr/>
-            <CitySelect/>
+            <AppModule/>
         </div>
     );
 }

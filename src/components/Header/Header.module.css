@@ -1,17 +1,22 @@
-.header{
+.header {
     min-height: 50px;
     cursor: pointer;
-}
-.burger{
-    margin-left: 40px;
-    padding-bottom: 10px;
 
 }
-.container{
+
+.burger {
+    margin-left: 60px;
+    padding-bottom: 10px;
+
+
+}
+
+.container {
     display: flex;
     justify-content: space-between;
 }
-.content{
+
+.content {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -19,6 +24,6 @@
     min-width: 200px;
 }
 
-.linkedin_img{
+.linkedin_img {
     min-height: 37px;
 }

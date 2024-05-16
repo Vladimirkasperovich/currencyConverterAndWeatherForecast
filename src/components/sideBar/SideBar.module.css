@@ -1,0 +1,15 @@
+.section{
+    min-height: 100vh;
+    max-width: 170px;
+}
+
+.sideBar_block{
+    max-width: 170px;
+    min-height: 100vh;
+}
+.sideBar_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
